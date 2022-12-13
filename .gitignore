@@ -1,0 +1,6 @@
+.vscode
+.metals
+
+# Compiled Scala files
+*/*/*.class
+*/*/*.tasty
