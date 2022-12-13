@@ -4,3 +4,5 @@
 # Compiled Scala files
 */*/*.class
 */*/*.tasty
+
+.scalafmt.conf
