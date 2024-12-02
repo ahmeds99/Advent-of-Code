@@ -6,3 +6,5 @@
 */*/*.tasty
 
 .scalafmt.conf
+
+2024/target/*
