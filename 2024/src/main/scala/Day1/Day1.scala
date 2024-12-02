@@ -1,6 +1,6 @@
 package Day1
 
-@main def main(): Unit =
+def part1(): Unit =
   val file = scala.io.Source.fromFile("src/main/scala/Day1/input.txt")
   val lines = try file.mkString finally file.close()
 
