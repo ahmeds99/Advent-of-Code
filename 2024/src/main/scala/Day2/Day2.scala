@@ -1,6 +1,6 @@
 package Day2
 
-@main def main(): Unit =
+def day2(): Unit =
   val file = scala.io.Source.fromFile("src/main/scala/Day2/input.txt")
   val lines = try file.mkString finally file.close()
 
@@ -13,7 +13,7 @@ package Day2
       checkIfSorted(increasing, list(0), list(1)) && validDifference(list(0), list(1))
     ).toList.length == report.length - 1
   })
-  
+
   println(result.length)
 
 
