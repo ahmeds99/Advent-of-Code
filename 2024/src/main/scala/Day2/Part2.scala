@@ -7,7 +7,6 @@ package Day2
   val allLines = lines.split("\n").map(line => line.split(" ").map(numStr => numStr.toInt))
 
   val result = allLines.filter(report => {
-    val increasing = if (!validDifference(report(0), report(1))) report(0) <= report(1) else report(0) <= report(2)
     var i = 0
     var valid = false
     while (i < report.length) {
